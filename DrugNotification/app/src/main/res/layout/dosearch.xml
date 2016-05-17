@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="320dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/se2"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="การค้นหาข้อมูลยาเพียงแค่ผู้ใช้กรอกชื่อยาลง ไปแล้วกดที่แว่นขยายเพื่อค้นหาก็จะพบกับรายละเอียดของยาแต่ในกรณีที่ฐานข้อมูลไม่มียาที่ผู้ใช้ค้นหาจะแสดงข้อความขึ้นว่า 'ไม่พบข้อมูล' "
+        android:textSize="20dp"
+        android:id="@+id/textView11"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

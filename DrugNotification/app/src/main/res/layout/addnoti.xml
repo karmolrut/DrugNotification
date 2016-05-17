@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg299"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText"
+        android:hint="ใส่ชื่อยา"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/scrollView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText2"
+        android:hint="ใส่ประเภทของยา"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/editText6"
+        android:layout_toEndOf="@+id/editText6" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:inputType="numberDecimal"
+        android:hint="ใส่จำนวนที่ต้องกิน"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText7"
+        android:background="#FFFFFF"
+        android:hint="ใส่ข้อความแจ้งเตือน."
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="บันทึก"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:background="#6CA5CF"
+        android:id="@+id/button6"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/textView16"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่ นาที."
+        android:ems="10"
+        android:id="@+id/editText4"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_below="@+id/editText3"
+        android:layout_toRightOf="@+id/editText5"
+        android:layout_toEndOf="@+id/editText5" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ชื่อยา :"
+        android:textColor="#111111"
+        android:textSize="30dp"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/scrollView2"
+        android:layout_alignStart="@+id/scrollView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ประเภท :"
+        android:textColor="#111111"
+        android:textSize="30dp"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111111"
+        android:text="จำนวน :"
+        android:textSize="30dp"
+        android:id="@+id/textView7"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่ ชม."
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เวลา :"
+        android:textColor="#111111"
+        android:textSize="30dp"
+        android:id="@+id/textView8"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่วัน."
+        android:ems="10"
+        android:id="@+id/editText6"
+
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/editText5"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่เดือน."
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_alignTop="@+id/editText6"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่พ.ศ."
+        android:ems="10"
+        android:id="@+id/editText9"
+        android:layout_above="@+id/textView10"
+        android:layout_toRightOf="@+id/editText4"
+        android:layout_toEndOf="@+id/editText4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="วันที่ :"
+        android:textSize="30dp"
+        android:textColor="#111111"
+        android:id="@+id/textView9"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ข้อความ :"
+        android:textSize="30dp"
+        android:textColor="#111111"
+        android:id="@+id/textView10"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/editText6"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="วันที่สิ้นสุด :"
+        android:textSize="30dp"
+        android:id="@+id/textView16"
+        android:layout_marginTop="26dp"
+        android:textColor="#111111"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่วัน."
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่เดือน."
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:layout_alignTop="@+id/editText10"
+        android:layout_toRightOf="@+id/editText10"
+        android:layout_toEndOf="@+id/editText10"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:background="#FFFFFF"
+        android:hint="ใส่พ.ศ."
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_alignBottom="@+id/editText11"
+        android:layout_alignRight="@+id/editText7"
+        android:layout_alignEnd="@+id/editText7" />
+
+
+</RelativeLayout>
