@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Drug Notification</string>
-    <string name="action_settings">Settings</string>
-    <string name="notification">New Button</string>
-    <color name="white">#FFFFFF</color>
-
-
-</resources>
