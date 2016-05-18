@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/addnoti11"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1.26"
+        android:layout_below="@+id/addnoti11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+    </ListView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:background="#111111"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/addnoti11"
+        android:layout_toStartOf="@+id/addnoti11" />
+
+</RelativeLayout>
